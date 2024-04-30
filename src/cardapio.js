@@ -7,6 +7,7 @@ import risotoCamaraoTrufadoImg from './assets/pratos/risoto-camarao-trufado.jpeg
 import brownieImg from './assets/sobremesas/brownie.jpeg';
 import cocadaFornoImg from './assets/sobremesas/cocada-forno.jpeg';
 import petitGateauImg from './assets/sobremesas/petit-gateau.jpeg';
+import tiramisuImg from './assets/sobremesas/tiramisu.png';
 
 import aguaSemGasImg from './assets/bebidas/agua-sem-gas.jpeg';
 import aguaComGasImg from './assets/bebidas/agua-com-gas.jpeg';
@@ -55,6 +56,15 @@ const brownie = {
   descricao:
     'Delicioso brownie caseiro, sorvete de creme, calda quente de chocolate',
 };
+
+const tiramisu = {
+  nome: 'Tiramisu',
+  preco: 'R$ 37,00',
+  imagem: tiramisuImg,
+  descricao:
+    'Sobremesa de origem italiana a base de mascapone e Café.',
+};
+
 const cocadaForno = {
   nome: 'Cocada de Forno',
   preco: 'R$ 32,90',
@@ -109,6 +119,6 @@ export const pratosPrincipais = [
   risotoCamaraoTrufado,
 ];
 
-export const sobremesas = [brownie, cocadaForno, petitGateau];
+export const sobremesas = [brownie, cocadaForno, petitGateau, tiramisu];
 
 export const bebidas = [aguaSemGas, aguaComGas, cocaCola, guarana, heineken];
